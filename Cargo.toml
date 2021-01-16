@@ -1,0 +1,16 @@
+[package]
+name = "LemonVM"
+version = "0.1.0"
+authors = ["LemonHX <runzhe2001@hotmail.com>"]
+edition = "2018"
+
+[lib]
+name = "liblemonvm"
+path = "lemonvm/lib.rs"
+
+[[bin]]
+name = "lemonvm"
+path = "lemonvm/main.rs"
+
+[dependencies]
+smallvec = "1.6"
